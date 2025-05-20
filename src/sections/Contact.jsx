@@ -46,7 +46,7 @@ const Contact = () => {
 
       // Reset form and stop loading
       setForm({ name: "", email: "", phone: "", message: "" });
-      showStatusModal("Your message sent succesfully.");
+      showStatusModal("Your message was sent succesfully.");
     } catch (error) {
       console.error("EmailJS Error:", error); // Optional: show toast
       showStatusModal("Failed to send message, Please try again.‼️", true);
