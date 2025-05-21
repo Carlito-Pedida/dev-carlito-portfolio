@@ -62,7 +62,7 @@ const Experience = () => {
       <div className="w-full h-full md:px-20 px-5">
         <TitleHeader
           title="Technical Experience"
-          subT="💻 A Timeline Of My Technical Journey"
+          subT="💻 A Short Timeline Of My Feature Projects "
         />
         <div className="mt-32 relative">
           <div className="relative z-50 xl:space-y-32 space-y-10">
@@ -71,7 +71,19 @@ const Experience = () => {
                 <div className="xl:w-2/6">
                   <GlowCard card={card} index={index}>
                     <div>
-                      <img src={card.imgPath} alt={card.title} />
+                      <div className="flex items-center">
+                        {card.techStack.map((icon, index) => (
+                          <div
+                            key={index}
+                            className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                            style={{
+                              transform: `translateX(-${5 * index + 2}px)`
+                            }}
+                          >
+                            <img src={icon} alt="icon5" className="p-2" />
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   </GlowCard>
                 </div>

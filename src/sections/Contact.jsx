@@ -140,7 +140,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="xl:col-span-7 min-h-96 relative ">
-            <div className="bg-[#9bc6fa] w-full h-full rounded-3xl overflow-hidden">
+            <div className="bg-[#404c58] w-full h-full rounded-3xl overflow-hidden">
               {/* <ContactExperience /> */}
               <img
                 src="/images/contact.png"

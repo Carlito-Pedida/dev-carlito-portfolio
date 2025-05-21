@@ -29,9 +29,12 @@ const GlowCard = ({ card, children, index }) => {
     >
       <div className="glow" />
       <div className="flex items-center gap-1 mb-5">
-        {Array.from({ length: 5 }, (_, i) => (
+        {/* {Array.from({ length: 5 }, (_, i) => (
           <img src="/images/star.png" key={i} alt="star" className="size-5" />
-        ))}
+        ))} */}
+        <h2 className="text-2xl font-semibold text-white-50">
+          {card.cardTitle}
+        </h2>
       </div>
       <div className="mb-5">
         <p>{card.review}</p>

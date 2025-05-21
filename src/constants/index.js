@@ -1,5 +1,9 @@
 const navLinks = [
   {
+    name: "Home",
+    link: "#hero"
+  },
+  {
     name: "Work",
     link: "#work"
   },
@@ -10,10 +14,6 @@ const navLinks = [
   {
     name: "Skills",
     link: "#skills"
-  },
-  {
-    name: "Testimonials",
-    link: "#testimonials"
   }
 ];
 
@@ -324,42 +324,68 @@ const techStackIcons = [
 
 const expCards = [
   {
+    cardTitle: "Rome Telemed, LLC",
     review:
-      "Carlito brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+      "A Minnesota-based telemedicine platform that connects patients with licensed healthcare providers for virtual consultations.",
     imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
+    logoPath: "/images/time1.png",
+    title: "Frontend Development",
     date: "January 2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability."
+      "Developed and maintained user-facing features for the Rome Telemed company website.",
+      "Collaborated closely with client to ensure design and functionalities create pleasant user experiences.",
+      "Optimized web applications for maximum speed and future scalability."
+    ],
+    techStack: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
     ]
   },
   {
+    cardTitle: "Trip Gen AI",
     review:
-      "Carlito’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+      "A web-based travel planning tool that leverages artificial intelligence to generate personalized itineraries based on user preferences such as destination, trip duration, budget, and interests.",
     imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
+    logoPath: "/images/time2.png",
+    title: "Full Stack Developement",
     date: "June 2020 - December 2023",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem."
+      "Designed and Developed AI powered travel assistant with unique and engaging user interface",
+      "Utilized OpenAI APIs to dynamically generate personalized travel itineraries based on user input and preferences.",
+      "Integrated Stripe as a secure payment gateway for seamless transaction processing"
+    ],
+    techStack: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/appwrite/appwrite-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg"
     ]
   },
   {
+    cardTitle: "Interview AI",
     review:
-      "Carlito’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      "A web-based platform designed to help users practice and improve their interview skills through AI-generated questions and real-time feedback.",
     imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
+    logoPath: "/images/time3.png",
+    title: "AI Powered Full Stack Application",
     date: "March 2019 - May 2020",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
+      'Built an AI powered tech interview prep assistant integrating "Gemini" for test generation.',
       "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback."
+      "Leveraged VAPI system to integrate voice-based interface for a more personal mock interview experience"
+    ],
+    techStack: [
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/appwrite/appwrite-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg"
     ]
   }
 ];
