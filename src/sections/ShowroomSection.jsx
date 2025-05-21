@@ -107,9 +107,11 @@ const ShowroomSection = () => {
                   </div>
                 </a>
               </div>
-              <h2 className="hover:text-[#91a5ff] hover:underline cursor-pointer ">
-                AI Trip Generator
-              </h2>
+              <a href="https://trip-gen-pro.vercel.app/" target="_blank">
+                <h2 className="hover:text-[#91a5ff] hover:underline cursor-pointer ">
+                  AI Trip Generator
+                </h2>
+              </a>
               <p className="text-white-50 md:text-xl">
                 REACT, Tailwind, Appwrite, SyncFusion, Stripe, Vercel
               </p>
@@ -135,9 +137,13 @@ const ShowroomSection = () => {
                   </div>
                 </a>
               </div>
-              <h2 className="hover:text-[#91a5ff] hover:underline cursor-pointer ">
-                Worship Grid Pro
-              </h2>
+
+              <a href="https://worship-grid-ui.vercel.app/" target="_blank">
+                <h2 className="hover:text-[#91a5ff] hover:underline cursor-pointer ">
+                  Worship Grid Pro
+                </h2>
+              </a>
+
               <p className="text-white-50 md:text-xl">
                 REACT, NodeJs, CSS, SQL, Stripe, Vercel
               </p>
