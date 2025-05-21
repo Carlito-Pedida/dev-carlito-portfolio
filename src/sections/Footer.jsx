@@ -18,9 +18,9 @@ const Footer = () => {
 
         <div className="flex flex-col justify-center">
           <p className="text-center md:text-end">
-            © {new Date().getFullYear()} Carlito Pedida | Node{" "}
-            <span className="text-[#d07ffc]"> ① </span> Creative, LLC | All
-            rights reserved.
+            © {new Date().getFullYear()} Carlito Pedida ＠ Node{" "}
+            <span className="text-[#d07ffc]"> ① </span> Creative | All rights
+            reserved.
           </p>
         </div>
       </div>

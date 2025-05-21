@@ -90,7 +90,7 @@ const ShowroomSection = () => {
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#ffe7eb]">
                 <a
-                  href="https://rometelemed.com/"
+                  href="https://trip-gen-pro.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="relative group w-fit"
@@ -111,14 +111,14 @@ const ShowroomSection = () => {
                 AI Trip Generator
               </h2>
               <p className="text-white-50 md:text-xl">
-                REACT, Tailwind, Appwrite, SyncFusion,
+                REACT, Tailwind, Appwrite, SyncFusion, Stripe, Vercel
               </p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#d1e3d6]">
                 <a
-                  href="https://rometelemed.com/"
+                  href="https://worship-grid-ui.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="relative group w-fit"
@@ -139,7 +139,7 @@ const ShowroomSection = () => {
                 Worship Grid Pro
               </h2>
               <p className="text-white-50 md:text-xl">
-                REACT, NodeJs, CSS, SQL, Stripe, AWS RDS, Vercel
+                REACT, NodeJs, CSS, SQL, Stripe, Vercel
               </p>
             </div>
           </div>
