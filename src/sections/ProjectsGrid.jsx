@@ -57,14 +57,14 @@ const ProjectsGrid = () => {
   return (
     <>
       <div className="flex justify-center">
-        <h2 className="text-white-50 text-3xl md:text-2xl font-semibold ">
+        <h2 className="text-white-50 text-3xl md:text-2xl font-semibold mb-5 ">
           More projects...
         </h2>
       </div>
       <div
         id="work"
         ref={sectionRef}
-        className="grid grid-cols-1 xl:grid-cols-2 gap-4 p-10 mx-2 md:mx-15"
+        className="grid grid-cols-1 xl:grid-cols-2 gap-4 p-5 mx-2 md:mx-15"
       >
         {/* Left Side: 4 Small Boxes */}
         <div

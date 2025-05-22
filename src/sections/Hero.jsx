@@ -22,6 +22,17 @@ const Hero = () => {
         ease: "power2.inOut"
       }
     );
+
+    gsap.to(".splash-image", {
+      scale: 1.2,
+      scrollTrigger: {
+        trigger: ".splash-image",
+        start: "top bottom", // when top of image hits bottom of viewport
+        end: "bottom top", // when bottom of image hits top of viewport
+        scrub: true
+      },
+      ease: "none"
+    });
   });
 
   return (
@@ -55,11 +66,11 @@ const Hero = () => {
                   </span>
                 </span>
               </h1>
-              <h1>into Real Projects</h1>
-              <h1>that Deliver Results</h1>
+              <h1>into Real-World</h1>
+              <h1>Web Solutions</h1>
             </div>
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none ">
-              Hi, my name is Carlito! Welcome to my Dev Showroom!
+              Hi, my name is Carlito! Let's build your dream website!
             </p>
 
             <Button
@@ -77,7 +88,7 @@ const Hero = () => {
           </div> */}
           <div className="hero-splashImage-layout z-0">
             {/* <HeroExperience /> */}
-            <img src="/images/collab3.png" alt="" />
+            <img src="/images/collab3.png" alt="splash image" />
           </div>
         </figure>
       </div>

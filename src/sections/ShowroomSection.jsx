@@ -49,7 +49,7 @@ const ShowroomSection = () => {
         <div className="showcaselayout">
           {/* LEFT */}
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
+            <div className="image-wrapper p-5 bg-[#e1afa1] rounded-2xl">
               <a
                 href="https://rometelemed.com/"
                 target="_blank"
@@ -81,14 +81,15 @@ const ShowroomSection = () => {
                 technology
               </p>
               <p className="text-white-50 md:text-xl">
-                REACT, Tailwind, Appwrite, EmailJs, AWS Amplify
+                REACT+Vite, Tailwind, HeadlessUI, Appwrite, Sentry, EmailJs, AWS
+                Amplify
               </p>
             </div>
           </div>
           {/* RIGHT */}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#ffe7eb]">
+              <div className="image-wrapper bg-[#ffe7eb] p-5">
                 <a
                   href="https://trip-gen-pro.vercel.app/"
                   target="_blank"
@@ -113,12 +114,13 @@ const ShowroomSection = () => {
                 </h2>
               </a>
               <p className="text-white-50 md:text-xl">
-                REACT, Tailwind, Appwrite, SyncFusion, Stripe, Vercel
+                REACT+Vite, Tailwind, OpenAI, Appwrite, SyncFusion, Stripe,
+                Vercel
               </p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#d1e3d6]">
+              <div className="image-wrapper bg-[#d1e3d6] p-5">
                 <a
                   href="https://worship-grid-ui.vercel.app/"
                   target="_blank"
@@ -126,7 +128,7 @@ const ShowroomSection = () => {
                   className="relative group w-fit"
                 >
                   <img
-                    src="/images/worship.png"
+                    src="/images/projects/interview.png"
                     alt="worship grid"
                     className="transition duration-300 ease-in-out group-hover:blur-sm"
                   />
@@ -140,12 +142,13 @@ const ShowroomSection = () => {
 
               <a href="https://worship-grid-ui.vercel.app/" target="_blank">
                 <h2 className="hover:text-[#91a5ff] hover:underline cursor-pointer ">
-                  Worship Grid Pro
+                  Interview AI
                 </h2>
               </a>
 
               <p className="text-white-50 md:text-xl">
-                REACT, NodeJs, CSS, SQL, Stripe, Vercel
+                Next.JS, Google Gemini, VAPI, Firebase, Tailwind, Shadcn/ui,
+                Vercel
               </p>
             </div>
           </div>

@@ -34,8 +34,8 @@ const TechnologyCarousel = () => {
   return (
     <>
       <div className="flex justify-center">
-        <h2 className="text-white-50 text-3xl md:text-2xl font-semibold mb-5">
-          Technology Stack
+        <h2 className="text-white-50 text-3xl md:text-2xl font-semibold mt-15 mb-5 ">
+          Technology Showcase
         </h2>
       </div>
       <div className=" relative">
