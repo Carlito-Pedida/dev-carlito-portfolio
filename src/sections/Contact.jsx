@@ -147,11 +147,14 @@ const Contact = () => {
                 alt="contact"
                 className="w-full h-full object-cover blur-sm"
               />
-
-              <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[60%] text-[clamp(1.5rem,6vw,4.5rem)] md:text-5xl font-extrabold text-white-50 drop-shadow-[3px_3px_3px_rgba(0,0,0,0.7)] whitespace-nowrap text-center">
-                Give me a call today! ☎️
+              <h1 className="whitespace-nowrap absolute top-[38%]  md:top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl md:text-3xl font-extrabold text-white-50 drop-shadow-[3px_3px_3px_rgba(0,0,0,0.7)]">
+                You have a vision built for the web?
               </h1>
-              <h1 className="absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 sm:text-2xl md:text-3xl font-extrabold text-white-50 drop-shadow-[3px_3px_3px_rgba(0,0,0,0.7)]">
+
+              <h1 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[60%] text-4xl md:text-5xl font-extrabold text-white-50 drop-shadow-[3px_3px_3px_rgba(0,0,0,0.7)] whitespace-nowrap text-center">
+                Let's make it happen! ☎️
+              </h1>
+              <h1 className="absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl md:text-3xl font-extrabold text-white-50 drop-shadow-[3px_3px_3px_rgba(0,0,0,0.7)]">
                 <a
                   href="tel:8175831168"
                   className="text-center hover:underline"

@@ -37,9 +37,9 @@ const counterItems = [
 
 const projectIconsList = [
   {
-    name: "AI Interview Assistant",
-    imgPath: "/images/projects/interview.png",
-    siteLink: "https://interview-ai-lime.vercel.app/sign-in"
+    name: "Worship Grid Pro",
+    imgPath: "/images/worship.png",
+    siteLink: "https://worship-grid-ui.vercel.app/"
   },
   {
     name: "Finance Company",
@@ -152,6 +152,15 @@ const logoIconsList = [
   },
   {
     imgPath:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+  },
+  {
+    imgPath:
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sentry/sentry-original.svg"
+  },
+
+  {
+    imgPath:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg"
   },
 
@@ -251,17 +260,17 @@ const abilities = [
   {
     imgPath: "/images/seo.png",
     title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail."
+    desc: "I'm commited to deliver high-quality web solutions with precision and care, ensuring your site looks great and performs even better."
   },
   {
     imgPath: "/images/chat.png",
     title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity."
+    desc: "I keep you informed every step of the way, ensuring full transparency and clear communication throughout the project."
   },
   {
     imgPath: "/images/time.png",
     title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail."
+    desc: "I ensure every project is delivered on time, focusing on efficiency without compromising quality or attention to detail."
   }
 ];
 
@@ -340,6 +349,7 @@ const expCards = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sentry/sentry-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
     ]
@@ -383,7 +393,7 @@ const expCards = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/appwrite/appwrite-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg"
     ]
