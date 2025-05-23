@@ -253,7 +253,11 @@ const logoIconsList = [
   {
     imgPath:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-  }
+  },
+  {
+    imgPath: "images/openai.png"
+  },
+  { imgPath: "/images/gemini.png" }
 ];
 
 const abilities = [
@@ -368,6 +372,7 @@ const expCards = [
       "Integrated Stripe as a secure payment gateway for seamless transaction processing"
     ],
     techStack: [
+      "/images/gemini.png",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
@@ -390,6 +395,7 @@ const expCards = [
       "Leveraged VAPI system to integrate voice-based interface for a more personal mock interview experience"
     ],
     techStack: [
+      "/images/openai.png",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
