@@ -349,13 +349,14 @@ const expCards = [
       "A Minnesota-based telemedicine platform that connects patients with licensed healthcare providers for virtual consultations.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/time1.png",
-    title: "Frontend Development",
-    date: "January 2023 - Present",
+    title: "On-demand Healthcare Service",
+    date: "November 2024 - Present",
     responsibilities: [
       "Developed and maintained user-facing features for the Rome Telemed company website.",
       "Collaborated closely with client to ensure design and functionalities create pleasant user experiences.",
       "Optimized web applications for maximum speed and future scalability."
     ],
+    devrole: "Frontend Development",
     techStack: [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
@@ -371,13 +372,14 @@ const expCards = [
       "A web-based travel planning tool that leverages artificial intelligence to generate personalized itineraries based on user preferences such as destination, trip duration, budget, and interests.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/time2.png",
-    title: "Full Stack Developement",
-    date: "June 2020 - December 2023",
+    title: "AI Powered Travel Assistant",
+    date: "Deployed: May 2025",
     responsibilities: [
       "Designed and Developed AI powered travel assistant with unique and engaging user interface",
       "Utilized OpenAI APIs to dynamically generate personalized travel itineraries based on user input and preferences.",
       "Integrated Stripe as a secure payment gateway for seamless transaction processing"
     ],
+    devrole: "Full Stack Development",
     techStack: [
       "/images/gemini.png",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
@@ -394,19 +396,44 @@ const expCards = [
       "A web-based platform designed to help users practice and improve their interview skills through AI-generated questions and real-time feedback.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/time3.png",
-    title: "AI Powered Full Stack Application",
-    date: "March 2019 - May 2020",
+    title: "AI Powered Interview Prep Application",
+    date: "Deployed: March 2025",
     responsibilities: [
       'Built an AI powered tech interview prep assistant integrating "Gemini" for test generation.',
       "Improved app performance and user experience through code optimization and testing.",
       "Leveraged VAPI system to integrate voice-based interface for a more personal mock interview experience"
     ],
+    devrole: "Full Stack Development",
     techStack: [
       "/images/openai.png",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg"
+    ]
+  },
+  {
+    cardTitle: "Converso Study Companion",
+    review:
+      "Converso is an AI-powered real-time teaching platform with integrated an AI vocal agent that delivers extensive, interactive and automated learning sessions.",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/time1.png",
+    title: "AI Powered Learning Platform (SaaS)",
+    date: "Deployed: January 2025",
+    responsibilities: [
+      'Developed an AI powered learning platform integrating "Gemini" and VAPI for subject and topic generation.',
+      "Leverage reusable components and a modular codebase for efficient development.",
+      "Built with Next.js for a fast, production-ready web application that scales seamlessly."
+    ],
+    devrole: "Full Stack Development",
+    techStack: [
+      "/images/gemini.png",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg"
     ]
