@@ -75,7 +75,7 @@ const projectIconsList = [
   },
 
   {
-    name: "REACT PortFolio",
+    name: "REACT Portfolio",
     imgPath: "/images/projects/folio.png",
     siteLink: "https://project-portfolio-opal.vercel.app/"
   },
