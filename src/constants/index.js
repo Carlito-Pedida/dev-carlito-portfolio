@@ -37,7 +37,7 @@ const counterItems = [
 
 const projectIconsList = [
   {
-    name: "AI Study Assistant",
+    name: "AI Learning Platform (SaaS) ",
     imgPath: "/images/projects/converso.png",
     siteLink: "https://converso-vert.vercel.app/"
   },
@@ -363,7 +363,7 @@ const expCards = [
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sentry/sentry-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+      "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
     ]
   },
   {
@@ -417,7 +417,7 @@ const expCards = [
   {
     cardTitle: "Converso Study Companion",
     review:
-      "Converso is an AI-powered real-time teaching platform with integrated an AI vocal agent that delivers extensive, interactive and automated learning sessions.",
+      "Converso is an AI-powered real-time teaching platform with integrated an AI vocal agent that delivers extensive, interactive, and automated learning experience.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/time1.png",
     title: "AI Powered Learning Platform (SaaS)",
@@ -425,7 +425,7 @@ const expCards = [
     responsibilities: [
       'Developed an AI powered learning platform integrating "Gemini" and VAPI for subject and topic generation.',
       "Leverage reusable components and a modular codebase for efficient development.",
-      "Built with Next.js for a fast, production-ready web application that scales seamlessly."
+      "Built with Next.js for a fast, production-ready web application scales seamlessly."
     ],
     devrole: "Full Stack Development",
     techStack: [
