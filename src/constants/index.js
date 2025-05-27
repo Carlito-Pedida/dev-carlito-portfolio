@@ -37,9 +37,9 @@ const counterItems = [
 
 const projectIconsList = [
   {
-    name: "Worship Grid Pro",
-    imgPath: "/images/worship.png",
-    siteLink: "https://worship-grid-ui.vercel.app/"
+    name: "AI Study Assistant",
+    imgPath: "/images/projects/converso.png",
+    siteLink: "https://converso-vert.vercel.app/"
   },
   {
     name: "Finance Company",
@@ -47,31 +47,15 @@ const projectIconsList = [
     siteLink: "https://modern-app-eight.vercel.app/"
   },
   {
-    name: "Game Hub",
-    imgPath: "/images/projects/game.png",
-    siteLink: "https://technode-game-hub.vercel.app/"
+    name: "Worship Grid Pro",
+    imgPath: "/images/worship.png",
+    siteLink: "https://worship-grid-ui.vercel.app/"
   },
 
   {
-    name: "MEARN Stack",
-    imgPath: "/images/projects/mern.png",
-    siteLink: "https://peoplesoft-ui.vercel.app/"
-  },
-  {
-    name: "REACT Portfolio",
-    imgPath: "/images/projects/folio.png",
-    siteLink: "https://project-portfolio-opal.vercel.app/"
-  },
-  {
-    name: "Project Bug Tracker",
-    imgPath: "/images/projects/tracker.png",
-    siteLink: "https://issue-tracker-application.vercel.app/"
-  },
-  {
-    name: "UX/UI Prototyping",
-    imgPath: "/images/projects/ux_ui.png",
-    siteLink:
-      "https://www.figma.com/proto/FIgzUfzvnOifgnQsgkAouP/CPedida-Ecom-v1?node-id=152-523&node-type=FRAME&t=BOlC0qCnQ0GHTai7-1&scaling=scale-down&content-scaling=fixed&page-id=39%3A71&starting-point-node-id=39%3A78"
+    name: "Game Hub",
+    imgPath: "/images/projects/game.png",
+    siteLink: "https://technode-game-hub.vercel.app/"
   },
   {
     name: "Movie App",
@@ -82,7 +66,30 @@ const projectIconsList = [
     name: "Modern Portfolio",
     imgPath: "/images/projects/node.png",
     siteLink: "https://node1creative.vercel.app/"
+  },
+
+  {
+    name: "MEARN Stack",
+    imgPath: "/images/projects/mern.png",
+    siteLink: "https://peoplesoft-ui.vercel.app/"
+  },
+
+  {
+    name: "REACT Portfolio",
+    imgPath: "/images/projects/folio.png",
+    siteLink: "https://project-portfolio-opal.vercel.app/"
+  },
+  {
+    name: "Project Bug Tracker",
+    imgPath: "/images/projects/tracker.png",
+    siteLink: "https://issue-tracker-application.vercel.app/"
   }
+  // {
+  //   name: "UX/UI Prototyping",
+  //   imgPath: "/images/projects/ux_ui.png",
+  //   siteLink:
+  //     "https://www.figma.com/proto/FIgzUfzvnOifgnQsgkAouP/CPedida-Ecom-v1?node-id=152-523&node-type=FRAME&t=BOlC0qCnQ0GHTai7-1&scaling=scale-down&content-scaling=fixed&page-id=39%3A71&starting-point-node-id=39%3A78"
+  // }
 ];
 
 const logoIconsList = [
@@ -253,7 +260,11 @@ const logoIconsList = [
   {
     imgPath:
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
-  }
+  },
+  {
+    imgPath: "images/openai.png"
+  },
+  { imgPath: "/images/gemini.png" }
 ];
 
 const abilities = [
@@ -368,6 +379,7 @@ const expCards = [
       "Integrated Stripe as a secure payment gateway for seamless transaction processing"
     ],
     techStack: [
+      "/images/gemini.png",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
@@ -390,6 +402,7 @@ const expCards = [
       "Leveraged VAPI system to integrate voice-based interface for a more personal mock interview experience"
     ],
     techStack: [
+      "/images/openai.png",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg",
       "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",

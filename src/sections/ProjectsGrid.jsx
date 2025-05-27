@@ -112,7 +112,7 @@ const ProjectsGrid = () => {
             ref={largeBox1Ref}
             className="border-1 border-[#4a4a5a]  rounded-md p-3  flex flex-col  items-center justify-center text-2xl font-bold shadow-md"
           >
-            {projectIconsList.slice(7, 8).map((project, idx) => (
+            {projectIconsList.slice(4, 5).map((project, idx) => (
               <div key={idx}>
                 <div
                   key={idx}
@@ -152,7 +152,7 @@ const ProjectsGrid = () => {
             ref={largeBox2Ref}
             className="border-1 border-[#4a4a5a]  rounded-md p-3 flex  flex-col items-center justify-center text-2xl font-bold shadow-md"
           >
-            {projectIconsList.slice(8, 9).map((project, idx) => (
+            {projectIconsList.slice(5, 6).map((project, idx) => (
               <div key={idx}>
                 <div
                   key={idx}
@@ -193,7 +193,7 @@ const ProjectsGrid = () => {
           className="grid md:grid-cols-3 grid-rows-1 gap-4 xl:col-span-2 w-full"
           ref={ycDirectoryRef}
         >
-          {projectIconsList.slice(4, 7).map((project, idx) => (
+          {projectIconsList.slice(6, 9).map((project, idx) => (
             <div
               key={idx}
               className="border-1 border-[#4a4a5a]  rounded-md p-3 flex-col items-center justify-center text-xl font-semibold shadow-md"
