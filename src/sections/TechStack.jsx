@@ -26,7 +26,7 @@ const TechStack = () => {
   });
   return (
     <div id="skills" className="flex-center section-padding">
-      <div className="w-full h-full md:px-10 px-5">
+      <div className="w-full h-full md:px-10 px-5 mt-20">
         <TitleHeader
           title="My Go-to Tech Tools"
           subT="🧰 Frequently used technology in my toolbox"
