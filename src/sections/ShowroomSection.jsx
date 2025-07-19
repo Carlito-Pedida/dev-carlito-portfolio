@@ -122,7 +122,7 @@ const ShowroomSection = () => {
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#d1e3d6] p-5">
                 <a
-                  href="https://worship-grid-ui.vercel.app/"
+                  href="https://interview-ai-lime.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="relative group w-fit"
@@ -140,7 +140,7 @@ const ShowroomSection = () => {
                 </a>
               </div>
 
-              <a href="https://worship-grid-ui.vercel.app/" target="_blank">
+              <a href="https://interview-ai-lime.vercel.app/" target="_blank">
                 <h2 className="hover:text-[#91a5ff] hover:underline cursor-pointer ">
                   Interview AI
                 </h2>
