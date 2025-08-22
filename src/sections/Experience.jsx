@@ -61,7 +61,7 @@ const Experience = () => {
     >
       <div className="w-full h-full md:px-20 px-5 mt-20">
         <TitleHeader
-          title="Technical Experience"
+          title="Featured Projects"
           subT="💻 A Short Timeline Of My Feature Projects "
         />
         <div className="mt-32 relative">
